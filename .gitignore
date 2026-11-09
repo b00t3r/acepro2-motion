@@ -1,0 +1,30 @@
+# Local Python environment and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Generated builds, camera dumps, and local release assets
+/builds/
+/release-assets/
+*.bin
+*.o
+*.dylib
+
+# Captures and logs may contain personal data. Keep only curated reports.
+/analysis/*
+!/analysis/REPORT.md
+!/analysis/BOOT_RECOVERY.md
+!/analysis/FIRMWARE_COMPARISON.md
+/doc/
+*.jpg
+*.jpeg
+*.mp4
+*.lrv
+*.zst
+*.crypt
+*.log
+
+# macOS metadata
+.DS_Store
+._*
